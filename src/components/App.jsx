@@ -3,13 +3,16 @@ import SearchBar from './SearchBar/SearchBar';
 import LoadMoreBtn from './LoadMoreBtn/LoadMoreBtn';import Loader from './Loader/Loader';
 import ImageModal from './ImageModal/ImageModal';
 import ImageGallery from './ImageGallery/ImageGallery';
-import Loader from './Loader/Loader';
-import {fetchImages} from './api';
+//import Loader from './Loader/Loader';
+import {LoadImages} from './api.js';
 import ErrorMessage from './ErrorMessage/ErrorMessage';
-import { useState } from 'react';
+import { useState, useEffect  } from 'react';
 
 
 function App() {
+
+
+  
 
   return (
       <>
