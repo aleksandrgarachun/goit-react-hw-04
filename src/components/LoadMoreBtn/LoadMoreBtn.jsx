@@ -1,7 +1,12 @@
+import css from "./LoadMoreBtn.module.css"
 
-const LoadMoreBtn = () => {
+const LoadMoreBtn = ({onClick}) => {
   return (
-    <div>LoadMoreBtn</div>
+    <div>
+        <button className={css.buttonLoadMore}type="button" onClick={onClick}>
+            Load more photos
+        </button>
+    </div>
   )
 }
 

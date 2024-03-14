@@ -1,7 +1,10 @@
 
-const ImageCard = () => {
+const ImageCard = ({ imageUrl, description, onClick}) => {
   return (
-    <div>ImageCard</div>
+    <div onClick={onClick}>
+        <img width="300" height="300" src={imageUrl} alt={description} />
+    </div>
+
   )
 }
 

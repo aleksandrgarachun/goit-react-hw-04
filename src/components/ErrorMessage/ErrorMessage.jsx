@@ -1,8 +1,10 @@
 
 const ErrorMessage = () => {
   return (
-    <div>ErrorMessage</div>
-  )
+    <>
+    <p>Server is not responding</p>
+    </>
+    )
 }
 
 export default ErrorMessage

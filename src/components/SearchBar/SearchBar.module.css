@@ -1,0 +1,26 @@
+.header {
+    background-color: blue;
+    
+}
+.inputSearch {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 10px 15px 20px 10px;
+    
+}
+
+
+
+.inputButton {
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: #e2dede;
+    color: #000;
+    
+}
+
+.inputButton:hover{
+    background-color: #b6b3b3;
+}
