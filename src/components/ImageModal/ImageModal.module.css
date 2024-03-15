@@ -1,6 +1,19 @@
 .photoModal {
     background-size: contain;
     background-position: center;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: 500px;
+    border-radius: 10%;
+
+}
+.photoParagraph {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.photoModalDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

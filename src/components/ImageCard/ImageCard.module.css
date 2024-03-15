@@ -1,0 +1,8 @@
+.ImageCardOne {
+    list-style: none;
+    display: flex;
+    
+}
+.ImageCardOneIMG {
+    object-fit: cover;
+}

@@ -1,8 +1,8 @@
-
+import css from './ErrorMessage.module.css'
 const ErrorMessage = () => {
   return (
     <>
-    <p>Server is not responding</p>
+    <p className={css.errorParag}>Server is not responding</p>
     </>
     )
 }
